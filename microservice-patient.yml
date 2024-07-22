@@ -1,8 +1,8 @@
 spring:
     datasource:
         url: jdbc:postgresql://localhost:5432/patientdb
-        username: patient_db_user_test
-        password: patient_db_password_test
+        username: {cipher}f814d611654d32c2bf02dc486be00c15edd9d909b26021b169f6b93b500cf251942f911d51097b41f040b1838af04916
+        password: {cipher}17597243ac2caed7f42e6282f14e3623d98668269cf76813d4aa63759260b59c7b6fd6aa6719b4792e3435b11a000064
     jpa:
         hibernate:
         ddl-auto: update
