@@ -8,4 +8,4 @@ spring:
         ddl-auto: update
 
 server:
-    port: random
+    port: 0
