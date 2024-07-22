@@ -1,8 +1,8 @@
 spring:
     datasource:
         url: jdbc:postgresql://localhost:5432/patientdb
-        username: {cipher}7bee9d1c5f0e35b8695d6583f7623fe21f6e25236d109da1233c10848dbd3ad7a1bd5a47be717f295bdffdab953c3cbf
-        password: {cipher}ae29fe1d4e10f5528917a593ca1a1b32a0296593015e574a1bfc67de9e92a3670935723df5446aaa4924af1cdeb7e9a0
+        username: {cipher}'7bee9d1c5f0e35b8695d6583f7623fe21f6e25236d109da1233c10848dbd3ad7a1bd5a47be717f295bdffdab953c3cbf'
+        password: {cipher}'ae29fe1d4e10f5528917a593ca1a1b32a0296593015e574a1bfc67de9e92a3670935723df5446aaa4924af1cdeb7e9a0'
     jpa:
         hibernate:
         ddl-auto: update
