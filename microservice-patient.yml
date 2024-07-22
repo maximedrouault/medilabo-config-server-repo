@@ -1,6 +1,6 @@
 spring:
     datasource:
-        url: jdbc:postgresql://postgresql_db_server:5432/patientdb
+        url: jdbc:postgresql://localhost:5432/patientdb
         username: patient_db_user_test
         password: patient_db_password_test
     jpa:
