@@ -1,0 +1,1 @@
+# medilabo-config-server-repo
