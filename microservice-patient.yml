@@ -8,4 +8,4 @@ spring:
         ddl-auto: update
 
 server:
-    port: 0
+    port: 9000
