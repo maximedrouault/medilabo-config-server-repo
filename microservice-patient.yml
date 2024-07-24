@@ -6,8 +6,6 @@ spring:
     jpa:
         hibernate:
             ddl-auto: update
-    zipkin:
-        base-url: http://zipkin-server:9411
 
 server:
     port: 9000
