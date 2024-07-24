@@ -19,6 +19,7 @@ management:
                 include: "health"
     tracing:
         sampling:
+            base-url: http://zipkin-server:9411
             probability: 1
 
 eureka:
