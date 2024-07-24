@@ -5,7 +5,7 @@ spring:
         password: '{cipher}ae29fe1d4e10f5528917a593ca1a1b32a0296593015e574a1bfc67de9e92a3670935723df5446aaa4924af1cdeb7e9a0'
     jpa:
         hibernate:
-        ddl-auto: update
+            ddl-auto: update
     zipkin:
         base-url: http://zipkin-server:9411
 
