@@ -5,8 +5,13 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://discovery-server:8761/eureka/
-    register-with-eureka: false
-    fetch-registry: false
+
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
 
 management:
   endpoints:
