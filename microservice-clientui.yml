@@ -1,0 +1,13 @@
+server:
+    port: 8080
+
+management:
+    endpoints:
+        web:
+            exposure:
+                include: "health"
+
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://discovery-server:8761/eureka/
