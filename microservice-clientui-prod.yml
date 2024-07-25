@@ -11,3 +11,9 @@ eureka:
     client:
         serviceUrl:
             defaultZone: http://discovery-server:8761/eureka/
+
+feign:
+    client:
+        config:
+            microservice-patient:
+                url: http://patient-api:9000
