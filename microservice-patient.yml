@@ -9,14 +9,6 @@ spring:
     jpa:
         hibernate:
         ddl-auto: update
-    zipkin:
-        base-url: http://zipkin-server:9411
-        enabled: true
-
-otel:
-    exporter:
-        zipkin:
-            endpoint: http://zipkin-server:9411/api/v2/spans
 
 management:
     endpoints:
