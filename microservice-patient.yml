@@ -1,3 +1,6 @@
+server:
+    port: 9000
+
 spring:
     datasource:
         url: jdbc:postgresql://patient-db-server:5432/patientdb
@@ -10,8 +13,10 @@ spring:
         base-url: http://zipkin-server:9411
         enabled: true
 
-server:
-    port: 9000
+otel:
+    exporter:
+        zipkin:
+            endpoint: http://zipkin-server:9411/api/v2/spans
 
 management:
     endpoints:
