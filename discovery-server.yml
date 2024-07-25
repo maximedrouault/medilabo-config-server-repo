@@ -1,10 +1,6 @@
 server:
   port: 8761
 
-spring:
-  zipkin:
-    base-url: http://zipkin-server:9411
-
 eureka:
   client:
     serviceUrl:
@@ -17,7 +13,3 @@ management:
     web:
       exposure:
         include: "health"
-  tracing:
-    sampling:
-      base-url: http://zipkin-server:9411
-      probability: 1

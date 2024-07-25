@@ -7,8 +7,6 @@ eureka:
       defaultZone: http://discovery-server:8761/eureka/
 
 spring:
-  zipkin:
-    base-url: http://zipkin-server:9411
   cloud:
     gateway:
       discovery:
@@ -20,7 +18,3 @@ management:
     web:
       exposure:
         include: "health"
-  tracing:
-    sampling:
-      base-url: http://zipkin-server:9411
-      probability: 1

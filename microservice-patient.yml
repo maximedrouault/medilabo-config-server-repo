@@ -6,8 +6,6 @@ spring:
     jpa:
         hibernate:
         ddl-auto: update
-    zipkin:
-        base-url: http://zipkin-server:9411
 
 server:
     port: 9000
@@ -17,10 +15,6 @@ management:
         web:
             exposure:
                 include: "health"
-    tracing:
-        sampling:
-            base-url: http://zipkin-server:9411
-            probability: 1
 
 eureka:
     client:
