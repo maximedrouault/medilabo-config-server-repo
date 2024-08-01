@@ -20,9 +20,3 @@ eureka:
     client:
         serviceUrl:
             defaultZone: http://discovery-server:8761/eureka/
-
-logging:
-    level:
-        org:
-            hibernate:
-                SQL: debug
