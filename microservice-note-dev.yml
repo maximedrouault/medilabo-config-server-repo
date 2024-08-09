@@ -9,7 +9,7 @@ spring:
             database: notedb
             username: '{cipher}95f6aa8954cabcc1949e9bb21888cfbabe2744781cad5a705562250c3b8eabdacc7a81371e12b1316eca3e58dbdc3554'
             password: '{cipher}643ac0b0f57bd9be6143ed41105b29ba18e5d8ea3b256341468cf03e9ac81abd7b8f601d68a082af30d3080000782526'
-            authentication-database: admin
+            authentication-database: '{cipher}778915648d4f463c6805cc9f15f85f741d772bf023e6dc165a50e38311d39891'
             auto-index-creation: true
 
 management:
