@@ -2,15 +2,10 @@ server:
     port: 9100
 
 spring:
-    data:
-        mongodb:
-            host: localhost
-            port: 27017
-            database: notedb
-            username: '{cypher}a45a277494959bc254e32cdd47c722944ebbfaf7056733c9e439162addf330c162c80ef3083a5d8064d19d4e4f2b1595'
-            password: '{cypher}9db690ffeb564b1f622da1f6fee08071a3ab155f158284cf8f7260171e7e957493bbf8d835feac45aec836ffa39578c3'
-            authentication-database: admin
-            auto-index-creation: true
+  data:
+    mongodb:
+      uri: mongodb://{cypher}a45a277494959bc254e32cdd47c722944ebbfaf7056733c9e439162addf330c162c80ef3083a5d8064d19d4e4f2b1595:{cypher}9db690ffeb564b1f622da1f6fee08071a3ab155f158284cf8f7260171e7e957493bbf8d835feac45aec836ffa39578c3@localhost:27017/notedb?authSource=admin
+      auto-index-creation: true
 
 management:
     endpoints:
