@@ -7,8 +7,8 @@ spring:
             host: localhost
             port: 27017
             database: notedb
-            username: note_db_user_test
-            password: note_db_password_test
+            username: '{cipher}95f6aa8954cabcc1949e9bb21888cfbabe2744781cad5a705562250c3b8eabdacc7a81371e12b1316eca3e58dbdc3554'
+            password: '{cipher}643ac0b0f57bd9be6143ed41105b29ba18e5d8ea3b256341468cf03e9ac81abd7b8f601d68a082af30d3080000782526'
             authentication-database: admin
             auto-index-creation: true
 
