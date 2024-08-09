@@ -1,0 +1,22 @@
+server:
+    port: 9100
+
+spring:
+    data:
+        mongodb:
+            uri: mongodb://note-db-server:27017/notedb
+            username: '{cypher}a45a277494959bc254e32cdd47c722944ebbfaf7056733c9e439162addf330c162c80ef3083a5d8064d19d4e4f2b1595'
+            password: '{cypher}9db690ffeb564b1f622da1f6fee08071a3ab155f158284cf8f7260171e7e957493bbf8d835feac45aec836ffa39578c3'
+            authentication-database: '{cypher}491e0de6fe63c20ecc98f1f68ffe31a6189c7bd9d7f7eb746f30a0ca79d71f67'
+            auto-index-creation: true
+
+management:
+    endpoints:
+        web:
+            exposure:
+                include: "health"
+
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://discovery-server:8761/eureka/
