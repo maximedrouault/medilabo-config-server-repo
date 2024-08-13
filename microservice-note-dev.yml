@@ -18,6 +18,11 @@ management:
             exposure:
                 include: "health"
 
+logging:
+    level:
+        org:
+            mongodb: DEBUG
+
 eureka:
     client:
         serviceUrl:
