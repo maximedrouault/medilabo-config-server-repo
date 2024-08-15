@@ -9,10 +9,10 @@ spring:
     jpa:
         hibernate:
         ddl-auto: update
-    security:
-        user:
-            name: '{cipher}35c97fdbacf1b4ac370787aa537454d1814cc8214f5ac9ba8c761d904609740ebf0426ad74b5f6a2c37951d95f43bdbf'
-            password: '{cipher}2fd398655ae8f7a2d64af51d4e8889978b2b449aa8c3a98601f6ac55bdd8eac2956e272af83df5728af1a695a8b433a4'
+#    security:
+#        user:
+#            name: '{cipher}35c97fdbacf1b4ac370787aa537454d1814cc8214f5ac9ba8c761d904609740ebf0426ad74b5f6a2c37951d95f43bdbf'
+#            password: '{cipher}2fd398655ae8f7a2d64af51d4e8889978b2b449aa8c3a98601f6ac55bdd8eac2956e272af83df5728af1a695a8b433a4'
 
 management:
     endpoints:
