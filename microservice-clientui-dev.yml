@@ -1,6 +1,13 @@
 server:
     port: 8080
 
+spring:
+    security:
+        user:
+            name: '{cipher}8fdb26238adcb2ae34316df5060b889f2a19f89ca14aac9e2e0480701703c5fd'
+            password: '$2a$12$MsJrn2XWk4S8pH7kUrOi.OBcl2I.3JIJI2YhN6.mATpEg2NPKVEtO'
+            roles: USER
+
 management:
     endpoints:
         web:
