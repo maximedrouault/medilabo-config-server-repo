@@ -8,6 +8,12 @@ spring:
             password: '$2a$12$MsJrn2XWk4S8pH7kUrOi.OBcl2I.3JIJI2YhN6.mATpEg2NPKVEtO'
             roles: USER
 
+feign:
+    client:
+        patient:
+            username: '{cipher}b910a1dd8bf0eb7a18ada2c54c9302f8b79a3ef4d3b2ffc5c14aaa5ec09e8f50cb202b4a940929de8698efc34fa008ec'
+            password: '{cipher}32129ed4965674f6ecf946517a4f400be66cd2a8d123f0b889df8ca121f46346e4d1a3fcba485542ea003756a24b1515'
+
 management:
     endpoints:
         web:
