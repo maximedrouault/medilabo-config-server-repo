@@ -11,6 +11,11 @@ spring:
             password: '{cipher}643ac0b0f57bd9be6143ed41105b29ba18e5d8ea3b256341468cf03e9ac81abd7b8f601d68a082af30d3080000782526'
             authentication-database: '{cipher}778915648d4f463c6805cc9f15f85f741d772bf023e6dc165a50e38311d39891'
             auto-index-creation: true
+    security:
+        user:
+            name: '{cipher}a3b19babee036cd810fbd884972e1c6ca1e1fc8e4d58ad74512cdd77eb0d130888296a3863a2ed9b3189028741fbcc3f'
+            password: '$2a$12$TqM9GkEAem6hBFUPpIyn8OCy7mbKklwoCxxvxfRrvrq5CV.zVuGRi'
+            roles: SERVICE
 
 management:
     endpoints:
