@@ -13,6 +13,7 @@ spring:
         user:
             name: '{cipher}b910a1dd8bf0eb7a18ada2c54c9302f8b79a3ef4d3b2ffc5c14aaa5ec09e8f50cb202b4a940929de8698efc34fa008ec'
             password: '{cipher}2e40c55ac84ed57fe06ce4466ce8bccce92d80e5368e9369e2527797877b6ca34a02d5ac50f53b78759a9b91c3d0adcb'
+            roles: USER
 
 management:
     endpoints:
