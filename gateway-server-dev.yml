@@ -22,3 +22,4 @@ management:
 logging:
     level:
         org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator: DEBUG
+        com.medilabo.gatewayserver.filter.AuthorizationFilter: DEBUG
