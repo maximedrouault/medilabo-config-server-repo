@@ -1,0 +1,20 @@
+server:
+    port: 9200
+
+spring:
+    security:
+        user:
+            name: '{cipher}a071e5528d8b01f6f4022bf5001e6738482536de861dce1a07a90811cc16496ad9dc754952a68e30e6575c3abf09391f'
+            password: '$2a$12$rsAHt/HX3Rj0oZzdqmNLlOajx29Vt.H3SPWe2cUKg3nRHBjkxyp5S'
+            roles: SERVICE
+
+management:
+    endpoints:
+        web:
+            exposure:
+                include: "health"
+
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://discovery-server:8761/eureka/
