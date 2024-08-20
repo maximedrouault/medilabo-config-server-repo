@@ -11,11 +11,11 @@ spring:
 feign:
     client:
         patient:
-            username: '{cipher}b910a1dd8bf0eb7a18ada2c54c9302f8b79a3ef4d3b2ffc5c14aaa5ec09e8f50cb202b4a940929de8698efc34fa008ec'
-            password: '{cipher}32129ed4965674f6ecf946517a4f400be66cd2a8d123f0b889df8ca121f46346e4d1a3fcba485542ea003756a24b1515'
+            username: '{cipher}3de1ae35e6cc8cb16aba9cab941f5f17453e76435c87a91f0010f334b052122bbb31712326353726d89041e18e9b9fac'
+            password: '{cipher}04997593f154e4702038d1d858b25460601b0fd6bc5e1c09e0be035feb176c5635db161f496e9839d4b756a58e05a4b9'
         note:
-            username: '{cipher}a3b19babee036cd810fbd884972e1c6ca1e1fc8e4d58ad74512cdd77eb0d130888296a3863a2ed9b3189028741fbcc3f'
-            password: '{cipher}abb0ab8a0522eeadf5baf1110d3ec4686ba2772879b133b0553e1b17531ab3f89f4dbbe21d7b3250dc492726423b6d91'
+            username: '{cipher}b379d323ac20a066e351550bd96c688a8d54a98104b1b5e885fbafd95602a415b8c87dcfb26beed044742d8cde2e67e6'
+            password: '{cipher}ed2348871d703d5fd11f8670614189ec527a54c1e25e4ac0a698ea255bdf3c4f7baa0e3f241d5234abad1311ced04a8d'
 
 management:
     endpoints:
