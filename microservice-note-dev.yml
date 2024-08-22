@@ -28,6 +28,7 @@ logging:
         org:
             mongodb: DEBUG
 
+
 eureka:
     client:
         serviceUrl:
