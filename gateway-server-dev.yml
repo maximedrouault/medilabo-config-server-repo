@@ -20,6 +20,9 @@ management:
         include: "health"
 
 logging:
-    level:
-        org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator: DEBUG
-        com.medilabo.gatewayserver.filter.AuthorizationFilter: DEBUG
+  level:
+    org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator: DEBUG
+    com.medilabo.gatewayserver.filter.AuthorizationFilter: DEBUG
+
+health-check:
+  path: "/actuator/health"
