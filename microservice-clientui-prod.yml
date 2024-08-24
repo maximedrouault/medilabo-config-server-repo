@@ -16,6 +16,9 @@ feign:
         note:
             username: '{cipher}a3b19babee036cd810fbd884972e1c6ca1e1fc8e4d58ad74512cdd77eb0d130888296a3863a2ed9b3189028741fbcc3f'
             password: '{cipher}abb0ab8a0522eeadf5baf1110d3ec4686ba2772879b133b0553e1b17531ab3f89f4dbbe21d7b3250dc492726423b6d91'
+        assessment:
+            username: '{cipher}af87bca755360fb95e39d4acb9571ace4e846c4ba88e749535a5af30fff8fbbaa06e5a603c4084fd1297f84473a43298'
+            password: '{cipher}4a9904b3d078ef4011007472fdb483368d7a1a4a79447d955fc1abf730402a481e227cb886c57ec45e459909a1b3265a'
 
 management:
     endpoints:
