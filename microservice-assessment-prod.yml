@@ -17,7 +17,7 @@ feign:
             username: '{cipher}b379d323ac20a066e351550bd96c688a8d54a98104b1b5e885fbafd95602a415b8c87dcfb26beed044742d8cde2e67e6'
             password: '{cipher}ed2348871d703d5fd11f8670614189ec527a54c1e25e4ac0a698ea255bdf3c4f7baa0e3f241d5234abad1311ced04a8d'
 
-riskTerms: 'Hémoglobine A1C|Microalbumine|Taille|Poids|Fumeur|Fumeuse|Anormal|Cholestérol|Vertige|Rechute|Réaction|Anticorps'
+riskTerms: "Hémoglobine A1C|Microalbumine|Taille|Poids|Fumeur|Fumeuse|Anormal|Cholestérol|Vertige|Rechute|Réaction|Anticorps"
 
 
 management:
