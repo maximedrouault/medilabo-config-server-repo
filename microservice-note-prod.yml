@@ -17,8 +17,6 @@ spring:
             password: '$2a$12$TqM9GkEAem6hBFUPpIyn8OCy7mbKklwoCxxvxfRrvrq5CV.zVuGRi'
             roles: SERVICE
 
-riskTerms: "Hémoglobine A1C|Microalbumine|Taille|Poids|Fumeur|Fumeuse|Anormal|Cholestérol|Vertige|Rechute|Réaction|Anticorps"
-
 management:
     endpoints:
         web:
