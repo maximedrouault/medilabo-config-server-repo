@@ -24,5 +24,5 @@ logging:
     org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator: DEBUG
     com.medilabo.gatewayserver.filter.AuthorizationFilter: DEBUG
 
-health-check:
-  path: "/actuator/health"
+healthcheck:
+  endpoint: "/actuator/health"

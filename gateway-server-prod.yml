@@ -19,5 +19,5 @@ management:
       exposure:
         include: "health"
 
-health-check:
-  path: "/actuator/health"
+healthcheck:
+  endpoint: "/actuator/health"
