@@ -1,6 +1,10 @@
+# Server configuration
 server:
     port: 9100
 
+#Spring configuration
+# Data source configuration
+# Security configuration
 spring:
     data:
         mongodb:
@@ -17,15 +21,18 @@ spring:
             password: '$2a$12$TqM9GkEAem6hBFUPpIyn8OCy7mbKklwoCxxvxfRrvrq5CV.zVuGRi'
             roles: SERVICE
 
-riskTerms: "Hémoglobine A1C|Microalbumine|Taille|Poids|Fumeur|Fumeuse|Anormal|Cholestérol|Vertige|Rechute|Réaction|Anticorps"
-
+# Actuator configuration
 management:
     endpoints:
         web:
             exposure:
                 include: "health"
 
+# Eureka configuration
 eureka:
     client:
         serviceUrl:
             defaultZone: http://discovery-server:8761/eureka/
+
+# Property to configure the risk terms for assessment
+riskTerms: "Hémoglobine A1C|Microalbumine|Taille|Poids|Fumeur|Fumeuse|Anormal|Cholestérol|Vertige|Rechute|Réaction|Anticorps"

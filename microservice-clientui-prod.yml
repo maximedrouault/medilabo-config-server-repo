@@ -1,6 +1,8 @@
+# Server configuration
 server:
     port: 8080
 
+# Security configuration
 spring:
     security:
         user:
@@ -8,6 +10,7 @@ spring:
             password: '$2a$12$MsJrn2XWk4S8pH7kUrOi.OBcl2I.3JIJI2YhN6.mATpEg2NPKVEtO'
             roles: USER
 
+# Feign configuration
 feign:
     client:
         patient:
@@ -20,12 +23,14 @@ feign:
             username: '{cipher}af87bca755360fb95e39d4acb9571ace4e846c4ba88e749535a5af30fff8fbbaa06e5a603c4084fd1297f84473a43298'
             password: '{cipher}4a9904b3d078ef4011007472fdb483368d7a1a4a79447d955fc1abf730402a481e227cb886c57ec45e459909a1b3265a'
 
+# Actuator configuration
 management:
     endpoints:
         web:
             exposure:
                 include: "health"
 
+# Eureka configuration
 eureka:
     client:
         serviceUrl:

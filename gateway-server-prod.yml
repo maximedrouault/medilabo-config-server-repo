@@ -1,11 +1,14 @@
+# Server configuration
 server:
   port: 8100
 
+# Eureka configuration
 eureka:
   client:
     serviceUrl:
       defaultZone: http://discovery-server:8761/eureka/
 
+# Gateway configuration
 spring:
   cloud:
     gateway:
@@ -13,11 +16,13 @@ spring:
         locator:
           enabled: true
 
+# Actuator configuration
 management:
   endpoints:
     web:
       exposure:
         include: "health"
 
+# Property to configure the health check endpoint
 healthcheck:
   endpoint: "/actuator/health"
