@@ -37,3 +37,10 @@ eureka:
 logging:
     level:
         com.medilabo.microserviceassessment.service.AssessmentService: DEBUG
+
+# Springdoc configuration
+springdoc:
+    openapi:
+        info:
+            title: "Assessment Microservice API Documentation"
+            version: v1
