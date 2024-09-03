@@ -39,6 +39,7 @@ logging:
             hibernate:
                 SQL: debug
 
+# Springdoc configuration
 springdoc:
     openapi:
         info:
