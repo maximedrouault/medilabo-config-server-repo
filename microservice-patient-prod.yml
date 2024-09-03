@@ -34,5 +34,7 @@ eureka:
 
 # Springdoc configuration
 springdoc:
-    swagger-ui:
-        title: Patient Microservice API
+    openapi:
+        info:
+            title: "Patient Microservice API Documentation"
+            version: v1
