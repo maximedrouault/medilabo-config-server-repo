@@ -38,9 +38,3 @@ logging:
         org:
             hibernate:
                 SQL: debug
-
-# Open-api doc (swagger) configuration
-openapi:
-    info:
-        title: Patient Microservice API
-        description: Documentation for Patient Microservice API
