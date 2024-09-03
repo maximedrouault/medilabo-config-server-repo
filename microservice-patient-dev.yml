@@ -39,7 +39,8 @@ logging:
             hibernate:
                 SQL: debug
 
-# Springdoc configuration
-springdoc:
-    swagger-ui:
+# Open-api doc (swagger) configuration
+openapi:
+    info:
         title: Patient Microservice API
+        description: Documentation for Patient Microservice API
