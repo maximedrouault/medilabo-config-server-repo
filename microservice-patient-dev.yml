@@ -38,3 +38,8 @@ logging:
         org:
             hibernate:
                 SQL: debug
+
+# Springdoc configuration
+springdoc:
+    swagger-ui:
+        title: Patient Microservice API

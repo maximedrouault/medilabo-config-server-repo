@@ -31,3 +31,8 @@ eureka:
     client:
         serviceUrl:
             defaultZone: http://discovery-server:8761/eureka/
+
+# Springdoc configuration
+springdoc:
+    swagger-ui:
+        title: Patient Microservice API
