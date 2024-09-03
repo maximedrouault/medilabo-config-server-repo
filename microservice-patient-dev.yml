@@ -38,13 +38,3 @@ logging:
         org:
             hibernate:
                 SQL: debug
-
-# Springdoc configuration
-springdoc:
-    api-docs:
-        path: /v3/api-docs
-    swagger-ui:
-        path: /swagger-ui.html
-    info:
-        title: Patient Microservice API Documentation
-        version: v1
