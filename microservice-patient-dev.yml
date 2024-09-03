@@ -38,3 +38,9 @@ logging:
         org:
             hibernate:
                 SQL: debug
+
+springdoc:
+    openapi:
+        info:
+            title: "Patient Microservice API Documentation"
+            version: v1
