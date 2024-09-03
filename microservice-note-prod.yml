@@ -36,3 +36,10 @@ eureka:
 
 # Property to configure the risk terms for assessment
 riskTerms: "Hémoglobine A1C|Microalbumine|Taille|Poids|Fumeur|Fumeuse|Anormal|Cholestérol|Vertige|Rechute|Réaction|Anticorps"
+
+# Springdoc configuration
+springdoc:
+    openapi:
+        info:
+            title: "Note Microservice API Documentation"
+            version: v1
