@@ -17,7 +17,7 @@ spring:
         password: '{cipher}ae29fe1d4e10f5528917a593ca1a1b32a0296593015e574a1bfc67de9e92a3670935723df5446aaa4924af1cdeb7e9a0'
     jpa:
         hibernate:
-        ddl-auto: update
+            ddl-auto: update
     security:
         user:
             name: '{cipher}b910a1dd8bf0eb7a18ada2c54c9302f8b79a3ef4d3b2ffc5c14aaa5ec09e8f50cb202b4a940929de8698efc34fa008ec'
